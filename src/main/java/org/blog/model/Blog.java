@@ -79,6 +79,14 @@ public class Blog {
 	}
 	
 
-	
+	@Override
+	public String toString() {		
+		return "id_blog = "+ idBlog 
+				+ "login= " + login
+				+ "senha= " + senha				
+				+ "email= " + email
+				+ "nome= " + nome;
+		
+	}
 
 }

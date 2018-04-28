@@ -14,6 +14,7 @@
 		<h4>
 			<a href="/hello/controller.html">Hello</a> <br/>
 			<a href="/contact.html">Contacts</a>
+			<a href="/blog">Contacts</a>
 		</h4>
 	</center>
 </h:body>

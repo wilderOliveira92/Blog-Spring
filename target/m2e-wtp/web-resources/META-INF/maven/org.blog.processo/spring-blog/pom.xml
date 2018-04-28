@@ -24,6 +24,8 @@
 			<url>http://mvnrepository.com/</url>
 		</repository>
 
+
+
 		<!-- MAVEN SEARCH REPOSITORY -->
 		<repository>
 			<id>mavensearch</id>
@@ -44,35 +46,6 @@
 			<url>http://repository.springsource.com/maven/bundles/external </url>
 		</repository>
 
-		<!-- JBOSS REPOSITORY -->
-		<repository>
-			<id>jboss-repository</id>
-			<url>https://repository.jboss.org/nexus/content/repositories/</url>
-		</repository>
-
-		<!-- JBOSS REPOSITORY -->
-		<repository>
-			<id>JBoss Repo</id>
-			<url>http://repository.jboss.com</url>
-		</repository>
-
-		<!-- GOOGLE REPOSITORY -->
-		<repository>
-			<id>google-repository</id>
-			<url>http://google-maven-repository.googlecode.com/svn/repository/</url>
-		</repository>
-
-		<!-- GLASSFISH REPOSITORY -->
-		<repository>
-			<id>glassfish-repository</id>
-			<url>http://download.java.net/maven/glassfish/</url>
-		</repository>
-
-		<!-- REPO2 REPOSITORY -->
-		<repository>
-			<id>repo2</id>
-			<url>http://repo2.maven.org/maven2</url>
-		</repository>
 
 		<!-- PRIMEFACES REPOSITORY -->
 		<repository>
@@ -94,6 +67,13 @@
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>9.4-1200-jdbc41</version>
 		</dependency>
 
 		<!-- SLF4J -->
